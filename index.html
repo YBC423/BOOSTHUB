@@ -3,74 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BOOSTHUB - Grow Social + Earn Money</title>
+  <title>BOOSTHUB - Marketplace for Social + Music Growth</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { color: #1A1A1A; }
+    body { font-family: 'Inter', sans-serif; color: #1A1A1A; }
     .text-gray { color: #6B7280; }
     .bg-section { background-color: #F8F9FA; }
     .btn-orange { background-color: #FF5A1F; }
     .btn-orange:hover { background-color: #E54E18; }
   </style>
 </head>
-<body class="font-sans">
+<body>
 
   <!-- NAVBAR -->
-  <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-sm sticky top-0 text-sm font-medium">
+  <nav class="flex items-center justify-between px-6 md:px-16 py-4 bg-white border-b border-[#E5E7EB] sticky top-0 z-50">
     <div class="flex items-center gap-2">
       <div class="w-9 h-9 btn-orange rounded-lg flex items-center justify-center text-white font-bold text-lg">B</div>
       <span class="font-bold text-2xl">BOOSTHUB</span>
     </div>
-    <div class="hidden md:flex gap-8">
-      <a href="#" class="hover:text-[#FF5A1F]">Home</a>
+    <div class="hidden lg:flex gap-8 text-sm font-medium">
       <a href="#" class="hover:text-[#FF5A1F]">Services</a>
       <a href="#" class="hover:text-[#FF5A1F]">Earn Tasks</a>
+      <a href="#" class="hover:text-[#FF5A1F]">Sign up</a>
       <a href="#" class="hover:text-[#FF5A1F]">Blog</a>
       <a href="#" class="hover:text-[#FF5A1F]">API</a>
     </div>
     <div class="flex gap-3">
-      <button class="px-4 py-2 text-sm">Log In</button>
-      <button class="px-5 py-2 btn-orange text-white rounded-full text-sm font-semibold">Sign Up</button>
+      <button class="px-4 py-2 text-sm font-medium hidden md:block">Log In</button>
+      <button class="px-5 py-2.5 btn-orange text-white rounded-full text-sm font-semibold">Sign Up</button>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="text-center py-20 px-4">
-    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Grow your audience,<br>earn doing what you love</h1>
-    <p class="text-gray text-base mt-4 max-w-2xl mx-auto">
-      Boost your social media, music streams & YouTube. Or earn money by completing tasks - follow, stream, and engage.
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Grow your audience,<br>the smart way</h1>
+    <p class="text-gray text-base mt-5 max-w-2xl mx-auto">
+      Manage social + music growth, track orders, and earn money — all from one powerful marketplace.
     </p>
     <div class="mt-8 flex justify-center gap-4 flex-wrap">
-      <button class="px-6 py-3 btn-orange text-white rounded-full text-base font-semibold">Get Started</button>
-      <button class="px-6 py-3 bg-[#F8F9FA] rounded-full text-base font-semibold border border-[#E5E7EB]">View Services</button>
+      <button class="px-7 py-3 btn-orange text-white rounded-full text-base font-semibold">Get Started</button>
+      <button class="px-7 py-3 bg-[#F8F9FA] rounded-full text-base font-semibold border border-[#E5E7EB]">View Available Services</button>
+    </div>
+    <!-- Hero Image -->
+    <div class="mt-14 flex justify-center">
+      <img src="https://placehold.co/600x400/FF5A1F/FFFFFF?text=BOOSTHUB+Dashboard" class="rounded-2xl shadow-2xl w-full max-w-3xl">
+    </div>
+  </section>
+
+  <!-- TRUSTED BY -->
+  <section class="py-12 text-center border-t border-[#E5E7EB]">
+    <p class="text-gray text-sm mb-6">Trusted by creators, brands, and earners worldwide</p>
+    <div class="flex justify-center gap-8 flex-wrap text-gray font-semibold">
+      <span>Instagram</span><span>Facebook</span><span>TikTok</span>
+      <span class="text-red-600">YouTube</span><span class="text-green-600">Spotify</span>
+      <span class="text-orange-500">Audiomack</span><span class="text-orange-600">SoundCloud</span>
     </div>
   </section>
 
   <!-- FEATURES -->
-  <section class="py-20 px-6 md:px-12 bg-section">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Everything you need to grow + earn</h2>
-    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-      <div class="bg-white p-8 rounded-2xl border-[#E5E7EB]">
-        <h3 class="text-xl font-semibold mb-2">Buy Boosts</h3>
-        <p class="text-gray text-base">Followers, Likes, Streams, Views. For IG, TikTok, YouTube, Spotify, Audiomack & SoundCloud.</p>
+  <section class="py-20 px-6 md:px-16 bg-section">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Everything you need to grow + earn</h2>
+    <p class="text-gray text-center mb-14">A complete marketplace for advertisers and earners</p>
+    
+    <div class="grid lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
+      <!-- For Advertisers -->
+      <div class="bg-white p-10 rounded-2xl border border-[#E5E7EB]">
+        <h3 class="text-2xl font-bold mb-3">For Advertisers</h3>
+        <p class="text-gray mb-6">Boost your presence across all platforms. Real results, real fast.</p>
+        <img src="https://placehold.co/500x300/F8F9FA/1A1A1A?text=Services+Dashboard" class="rounded-xl mb-4">
+        <ul class="space-y-2 text-sm">
+          <li>✓ YouTube Views & Subscribers</li>
+          <li>✓ Spotify + Audiomack + SoundCloud Streams</li>
+          <li>✓ Instagram, TikTok Followers & Likes</li>
+        </ul>
       </div>
-      <div class="bg-white p-8 rounded-2xl border border-[#E5E7EB]">
-        <h3 class="text-xl font-semibold mb-2">Earn Money</h3>
-        <p class="text-gray text-base">Complete tasks: Follow people, Stream songs, Watch videos. Withdraw your earnings anytime.</p>
-        <div class="mt-4 bg-orange-50 p-4 rounded-lg border border-orange-200">
-          <p class="font-bold text-lg">Your Balance: ₦0.00</p>
-          <button class="mt-2 px-4 py-2 btn-orange text-white rounded-lg text-sm font-semibold">Withdraw Funds</button>
+
+      <!-- For Earners -->
+      <div class="bg-white p-10 rounded-2xl border-[#E5E7EB]">
+        <h3 class="text-2xl font-bold mb-3">For Earners</h3>
+        <p class="text-gray mb-6">Complete tasks and get paid. Withdraw anytime.</p>
+        <div class="bg-[#F8F9FA] p-6 rounded-xl mb-4">
+          <p class="text-sm text-gray">Your Balance</p>
+          <p class="text-3xl font-bold">₦50,000.00</p>
+          <div class="flex gap-3 mt-4">
+            <button class="px-4 py-2 btn-orange text-white rounded-lg text-sm font-semibold">Add Funds</button>
+            <button class="px-4 py-2 bg-white border-[#E5E7EB] rounded-lg text-sm font-semibold">Withdraw</button>
+          </div>
         </div>
+        <ul class="space-y-2 text-sm">
+          <li>✓ Follow accounts & get paid</li>
+          <li>✓ Stream songs & get paid</li>
+          <li>✓ Watch videos & get paid</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="py-20 text-center btn-orange text-white">
+  <!-- WHY CHOOSE US -->
+  <section class="py-20 px-6 md:px-16">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-14">Why choose BOOSTHUB</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+      <div>
+        <div class="w-12 h-12 bg-orange-100 rounded-xl mb-4"></div>
+        <h4 class="font-bold text-lg mb-2">All-in-one Marketplace</h4>
+        <p class="text-gray text-sm">Buy growth or earn money in one dashboard</p>
+      </div>
+      <div>
+        <div class="w-12 h-12 bg-orange-100 rounded-xl mb-4"></div>
+        <h4 class="font-bold text-lg mb-2">Built for Speed</h4>
+        <p class="text-gray text-sm">Orders and tasks start within minutes</p>
+      </div>
+      <div>
+        <div class="w-12 h-12 bg-orange-100 rounded-xl mb-4"></div>
+        <h4 class="font-bold text-lg mb-2">Music + Social Focus</h4>
+        <p class="text-gray text-sm">Spotify, Audiomack, YouTube + all socials</p>
+      </div>
+      <div>
+        <div class="w-12 h-12 bg-orange-100 rounded-xl mb-4"></div>
+        <h4 class="font-bold text-lg mb-2">Secure & Reliable</h4>
+        <p class="text-gray text-sm">Safe payments and guaranteed delivery</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO IT'S FOR -->
+  <section class="py-20 px-6 md:px-16 bg-section">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-14">Who it's for</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <div class="bg-white rounded-2xl overflow-hidden border-[#E5E7EB]">
+        <img src="https://placehold.co/400x250/F8F9FA/1A1A1A?text=Musicians" class="w-full">
+        <p class="p-4 font-semibold">Musicians</p>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden border-[#E5E7EB]">
+        <img src="https://placehold.co/400x250/F8F9FA/1A1A1A?text=Streamers" class="w-full">
+        <p class="p-4 font-semibold">Streamers</p>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden border-[#E5E7EB]">
+        <img src="https://placehold.co/400x250/F8F9FA/1A1A1A?text=Businesses" class="w-full">
+        <p class="p-4 font-semibold">Businesses</p>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden border-[#E5E7EB]">
+        <img src="https://placehold.co/400x250/F8F9FA/1A1A1A?text=Influencers" class="w-full">
+        <p class="p-4 font-semibold">Influencers</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="py-20 text-center btn-orange text-white px-4">
     <h2 class="text-3xl md:text-4xl font-bold">Ready to grow with BOOSTHUB?</h2>
     <p class="mt-3 text-base">Create your account and start boosting or earning today.</p>
     <button class="mt-6 px-8 py-3 bg-white text-[#FF5A1F] rounded-full text-base font-bold">Get Started for Free</button>
   </section>
+
+  <!-- FOOTER -->
+  <footer class="py-16 px-6 md:px-16 bg-white border-t border-[#E5E7EB]">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-9 h-9 btn-orange rounded-lg flex items-center justify-center text-white font-bold">B</div>
+          <span class="font-bold text-xl">BOOSTHUB</span>
+        </div>
+        <p class="text-gray text-sm">Marketplace for across platform growth.</p>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-3">Product</h5>
+        <ul class="text-gray text-sm space-y-2">
+          <li><a href="#">Services</a></li><li><a href="#">Earn Tasks</a></li><li><a href="#">API</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-3">Company</h5>
+        <ul class="text-gray text-sm space-y-2">
+          <li><a href="#">About</a></li><li><a href="#">Blog</a></li><li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-3">Legal</h5>
+        <ul class="text-gray text-sm space-y-2">
+          <li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-center text-gray text-sm mt-12">© 2026 BOOSTHUB. All rights reserved.</p>
+  </footer>
+
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/234XXXXXXXXXX" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg text-white text-2xl">💬</a>
 
 </body>
 </html>
